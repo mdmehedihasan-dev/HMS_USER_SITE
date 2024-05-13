@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
         <Header title={"Welcome to Health Care Hospital || Your Trusted Healthcare Hospital 🏥"} imageUrl={'../../public/hero.png'} />
-        <Biography imageUrl={'../../public/about.png'}   />
+        <Biography imageUrl={'/about.png'}   />
         <Department/>
         <MessagesForm/>
     </div>

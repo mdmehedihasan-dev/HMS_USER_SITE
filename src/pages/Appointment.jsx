@@ -5,7 +5,7 @@ const Appointment = () => {
   return (
     <>
 
-    <Header title="Schedule Your Appointment 📝  || Health Care Hospital ❤️‍🩹"  imageUrl={'../../public/signin.png'}/>
+    <Header title="Schedule Your Appointment 📝  || Health Care Hospital ❤️‍🩹"  imageUrl={'/signin.png'}/>
     <AppointmentForm/>
     
     

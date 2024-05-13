@@ -11,7 +11,7 @@ const Header = ({title,imageUrl}) => {
           </p>
         </div>
         <div className="banner">
-          <img src={imageUrl} alt="hero" className="animated-image" />
+          <img src={imageUrl} alt="hero" className="" />
           <span>
             {/* <img src="/Vector.png" alt="vector" />  */}
           </span>

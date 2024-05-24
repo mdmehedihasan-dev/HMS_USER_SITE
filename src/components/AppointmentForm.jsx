@@ -155,6 +155,7 @@ const AppointmentForm = () => {
                 setDoctorLastName("");
               }}
             >
+              <option value="">Select Department</option>
               {departmentsArray.map((depart, index) => {
                 return (
                   <option value={depart} key={index}>
